@@ -1,0 +1,4 @@
+INFO | 2016-11-19 13:30:25,411 | index | root | Logging a test message from /
+INFO | 2016-11-19 13:30:28,559 | index | root | Logging a test message from /
+INFO | 2016-11-19 13:30:29,461 | index | profile | Logging a test message from /myprofile/
+INFO | 2016-11-19 13:30:30,601 | index | profile | Logging a test message from /myprofile/
