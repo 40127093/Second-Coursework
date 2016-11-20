@@ -2,8 +2,26 @@ import ConfigParser
 import logging
 
 from logging.handlers import RotatingFileHandler
-from flask import Flask, url_for
+from flask import (Flask, url_for, g, render_template, flash, redirect)
+
+import models
+
 app = Flask(__name__)
+
+
+@app.before_request
+def before_request():
+  """Connect to the database before each request."""
+  g.db = models.DATABASE
+  g.db.connect()
+
+
+@app.after_request
+def after_request(response):
+  """Close the database connection after each request."""
+  g.db.close()
+  return response
+
 
 @app.route("/")
 def root():
@@ -49,6 +67,7 @@ def logs(app):
   file_handler.setFormatter(formatter)
   app.logger.setLevel(app.config['log_level'])
   app.logger.addHandler(file_handler)
+
 
 # initialisation function
 
