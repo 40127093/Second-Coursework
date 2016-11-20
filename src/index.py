@@ -1,5 +1,9 @@
 import ConfigParser
 import logging
+import warnings
+
+from flask.exthook import ExtDeprecationWarning
+warnings.simplefilter('ignore', ExtDeprecationWarning)
 
 from logging.handlers import RotatingFileHandler
 from flask import (Flask, url_for, g, render_template, flash, redirect)
