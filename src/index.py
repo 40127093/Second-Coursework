@@ -45,17 +45,19 @@ def after_request(response):
 @app.route("/")
 def root():
   this_route = url_for('.root')
-  app.logger.info("Logging a test message from " + this_route)
+  app.logger.info("Someone visited the Home page " + this_route)
   return "Hello!"
 
 @app.route("/myprofile/")
 def profile():
   this_route = url_for('.profile')
-  app.logger.info("Logging a test message from " + this_route)
+  app.logger.info("Someone visited the Personal Profile page " + this_route)
   return "This is my profile!"
 
 @app.route('/register', methods=('GET','POST'))
 def register():
+  this_route = url_for('.register')
+  app.logger.info("Someone visited the Register page " + this_route)
   form = forms.RegisterForm()
   if form.validate_on_submit():
     flash("Yay, you registered!", "success")
@@ -69,6 +71,8 @@ def register():
 
 @app.route('/login', methods=('GET','POST'))  
 def login():
+  this_route = url_for('.login')
+  app.logger.info("Someone visited the Login page " + this_route)
   form = forms.LoginForm()
   if form.validate_on_submit():
     try:
@@ -87,6 +91,8 @@ def login():
 @app.route('/logout')
 @login_required
 def logout():
+  this_route = url_for('.logout')
+  app.logger.info("Someone requested to logout " + this_route)
   logout_user()
   flash("You've been logged out. Come back soon!","success")
   return redirect(url_for('root'))
