@@ -10,7 +10,8 @@ from flask import (Flask, url_for, g, render_template, flash, redirect)
 from flask.ext.login import LoginManager
 
 import models
-
+import form
+s
 app = Flask(__name__)
 app.secret_key = 'sefdewfewr43r535rewfwda!'
 
@@ -51,6 +52,20 @@ def profile():
   this_route = url_for('.profile')
   app.logger.info("Logging a test message from " + this_route)
   return "This is my profile!"
+
+@app.route('/register', methods=('GET','POST'))
+def register():
+  form = forms.RegisterForm()
+  if form.validate_on_submit():
+    flash("Yay, you registered!", "success")
+    models.User.create_user(
+      username=form.username.data,
+      email=form.email.data,
+      password=form.password.data
+    )
+    return redirect(url_for('root'))
+  return render_template('register.html', form=form) 
+
 
 # parsing configuration details from an external file
 
