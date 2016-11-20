@@ -3,10 +3,23 @@ import logging
 
 from logging.handlers import RotatingFileHandler
 from flask import (Flask, url_for, g, render_template, flash, redirect)
+from flask.ext.login import LoginManager
 
 import models
 
 app = Flask(__name__)
+app.secret_key = 'sefdewfewr43r535rewfwda!'
+
+login_manager = LoginManager()
+login_manager.init_app(app)
+login_manager.login_view = 'login'
+
+@login_manager.user_loader
+def load_user(userid):
+  try:
+    return models.User.get(models.User.id == userid)
+  except models.DoesNotExist:
+    return None
 
 
 @app.before_request
@@ -74,6 +87,16 @@ def logs(app):
 if __name__ == "__main__":
   init(app)
   logs(app)
+  models.initialize()
+  try:
+    models.User.create_user(
+       username='poisonphoebe',
+       email='poisonphoebe@hotmail.com',
+       password='password',
+       admin=True
+     )
+  except ValueError:
+    pass
   app.run(
     host = app.config['ip_address'],
     port = int(app.config['port']))
