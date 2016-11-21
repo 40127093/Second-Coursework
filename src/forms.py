@@ -1,3 +1,8 @@
+# to avoid the generation of .pyc files
+import sys
+
+sys.dont_write_bytecode = True
+
 from  flask_wtf import Form
 
 from models import User

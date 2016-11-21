@@ -2,6 +2,11 @@ import ConfigParser
 import logging
 import warnings
 
+# to avoid the generation of .pyc files
+import sys
+
+sys.dont_write_bytecode = True
+
 from flask.exthook import ExtDeprecationWarning
 warnings.simplefilter('ignore', ExtDeprecationWarning)
 
@@ -46,7 +51,7 @@ def after_request(response):
 def root():
   this_route = url_for('.root')
   app.logger.info("Someone visited the Home page " + this_route)
-  return "Hello!"
+  return render_template('index.html')
 
 @app.route("/myprofile/")
 def profile():
@@ -83,7 +88,7 @@ def login():
       if check_password_hash(user.password, form.password.data):
         login_user(user)
         flash("You've been loggen in!", "success")
-        return redirect(url_for('root'))
+        return "Hello!"
       else:
         flash("Your email or password doesn't match!", "error")
   return render_template('login.html', form=form)

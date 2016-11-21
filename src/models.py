@@ -1,3 +1,9 @@
+# to avoid the generation of .pyc files
+
+import sys
+
+sys.dont_write_bytecode = True
+
 import datetime
 
 from flask.ext.bcrypt import generate_password_hash
