@@ -1,0 +1,46 @@
+#username,#email,#password,#password2 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 30px;
+}
+
+img.img-responsive {
+  width:110px;
+  height:150px;
+}
+
+img.logo {
+  width:120px;
+  height:120px;
+  margin-top:-50px;
+}
+
+header .container {
+    padding-top:120px;
+    padding-bottom:50px;
+    }
+
+header, section#about.success, #portfolio .portfolio-item .portfolio-link
+.caption { 
+    background:#2C3E50;
+ }
+
+a.portfolio-link, a, a.active , a:active, a:focus {
+  color:#ACAEE8;
+}
+
+hr.star-light:after {
+  background-color:#ACAEE8;
+}
+
+.navbar-custom, footer .footer-above  {
+  background:#222222;
+}
+
+footer .footer-above,{
+  background-color:#222222;
+}
+
+ul.logo-nav li{
+  display:inline-block;
+}

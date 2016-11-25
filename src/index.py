@@ -53,11 +53,11 @@ def root():
   app.logger.info("Someone visited the Home page " + this_route)
   return render_template('index.html')
 
-@app.route("/myprofile/")
+@app.route("/myprofile")
 def profile():
   this_route = url_for('.profile')
   app.logger.info("Someone visited the Personal Profile page " + this_route)
-  return "This is my profile!"
+  return render_template('layout.html')
 
 @app.route('/register', methods=('GET','POST'))
 def register():
@@ -71,7 +71,7 @@ def register():
       email=form.email.data,
       password=form.password.data
     )
-    return redirect(url_for('root'))
+    return redirect(url_for('profile'))
   return render_template('register.html', form=form) 
 
 @app.route('/login', methods=('GET','POST'))  
@@ -88,7 +88,7 @@ def login():
       if check_password_hash(user.password, form.password.data):
         login_user(user)
         flash("You've been loggen in!", "success")
-        return "Hello!"
+        return redirect(url_for('profile'))
       else:
         flash("Your email or password doesn't match!", "error")
   return render_template('login.html', form=form)
@@ -100,7 +100,7 @@ def logout():
   app.logger.info("Someone requested to logout " + this_route)
   logout_user()
   flash("You've been logged out. Come back soon!","success")
-  return redirect(url_for('root'))
+  return redirect(url_for('login'))
 
 
 # parsing configuration details from an external file

@@ -251,3 +251,275 @@ INFO | 2016-11-25 11:44:52,368 | index | root | Someone visited the Home page /
 INFO | 2016-11-25 11:44:53,401 | index | login | Someone visited the Login page /login
 INFO | 2016-11-25 11:44:54,278 | index | login | Someone visited the Login page /login
 INFO | 2016-11-25 11:45:01,734 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 12:09:37,348 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 12:09:50,227 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 12:14:25,801 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 12:15:07,461 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 12:15:07,741 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 12:15:08,069 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 12:15:19,240 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 12:15:27,409 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 12:20:48,267 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 12:21:24,568 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 12:22:30,985 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 12:22:54,543 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 13:03:55,685 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 13:09:24,591 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 13:14:52,056 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 13:14:56,233 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 13:15:11,052 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 13:37:12,529 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 13:39:29,011 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 13:42:58,361 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 13:43:46,295 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 13:45:10,079 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 13:45:44,053 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 13:46:27,282 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 13:47:18,427 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 13:57:33,713 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 13:59:19,594 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 13:59:22,104 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 13:59:23,864 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 13:59:38,700 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 13:59:40,306 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:00:17,735 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 14:00:25,642 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:00:29,611 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:04:34,738 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:05:12,737 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:05:53,664 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:07:20,525 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:07:22,423 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:07:23,722 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:07:27,823 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:07:29,104 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:07:43,278 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:07:46,825 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:07:49,466 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:08:13,486 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:08:16,217 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:08:22,927 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:08:26,190 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:08:40,812 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:08:46,218 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:08:49,374 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:08:51,186 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:08:55,134 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:08:56,175 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:10:35,523 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 14:10:40,076 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 14:10:40,798 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 14:11:03,011 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:11:17,522 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:11:19,552 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:11:39,536 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:11:41,834 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:11:45,426 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:11:57,927 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:12:23,546 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:12:30,519 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:12:44,340 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 14:12:50,834 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 14:12:57,715 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:13:00,425 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:14:23,564 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:14:26,401 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:14:41,184 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:15:01,600 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:15:05,169 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:15:08,614 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:15:10,790 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:19:13,089 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:25:33,849 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:28:03,055 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:28:41,747 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:28:45,169 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:31:11,612 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:31:32,484 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:31:33,578 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:31:34,776 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 14:31:35,064 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 14:31:38,760 | index | logout | Someone requested to logout /logout
+INFO | 2016-11-25 14:31:39,011 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 14:31:41,534 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 14:32:16,224 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 14:32:25,980 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 14:32:28,472 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:35:54,315 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:38:47,233 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:38:50,471 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:38:55,138 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:39:03,338 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:39:06,543 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:39:59,773 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 14:40:02,736 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:40:25,084 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:41:32,329 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:41:48,413 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:42:25,659 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:42:27,692 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:42:30,359 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:42:33,511 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:42:56,202 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:42:58,694 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:43:01,003 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:43:34,687 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 14:43:41,088 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 14:45:35,652 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:45:44,639 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:45:47,832 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:46:02,232 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:46:52,239 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:49:59,100 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:50:02,052 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:50:47,330 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:50:50,233 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:50:56,266 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:52:01,573 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:53:10,114 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:53:17,966 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 14:54:02,164 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 16:37:33,563 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 16:37:57,105 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 16:38:51,280 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 16:38:54,256 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 16:40:22,457 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 16:40:26,580 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 18:18:56,563 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 18:18:57,375 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 18:18:58,116 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 18:18:59,317 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 18:18:59,867 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 18:19:00,332 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 18:19:06,440 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 18:19:07,211 | index | register | Someone visited the Register page /register
+INFO | 2016-11-25 18:19:08,884 | index | register | Someone visited the Register page /register
+INFO | 2016-11-25 18:19:10,083 | index | register | Someone visited the Register page /register
+INFO | 2016-11-25 18:20:05,388 | index | register | Someone visited the Register page /register
+INFO | 2016-11-25 18:20:06,819 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 18:20:07,430 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 18:20:07,772 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 18:20:20,816 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 18:20:23,164 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 18:23:50,231 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 18:23:50,962 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 18:23:51,803 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 18:23:54,580 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 18:23:55,134 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 18:24:36,603 | index | logout | Someone requested to logout /logout
+INFO | 2016-11-25 18:24:36,826 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 18:24:37,345 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 18:24:38,002 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 18:24:38,219 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 18:36:28,683 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 18:36:31,790 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 18:36:34,337 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 18:37:11,683 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 18:38:26,994 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 18:42:18,407 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 18:42:23,084 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 18:42:29,428 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 18:45:37,794 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 18:55:39,294 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:00:14,958 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 19:00:15,329 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:00:16,418 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:00:46,439 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 19:00:46,727 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:00:47,530 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:03:41,054 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:03:42,183 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:03:43,216 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:09:01,159 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 19:09:14,604 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 19:09:17,111 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:09:20,775 | index | logout | Someone requested to logout /logout
+INFO | 2016-11-25 19:09:20,901 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 19:09:30,568 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 19:10:36,009 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 19:10:38,296 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:16:46,802 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:16:50,087 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:17:28,829 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:19:34,249 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:19:37,303 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:20:43,402 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:22:51,809 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:22:54,656 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:23:47,399 | index | logout | Someone requested to logout /logout
+INFO | 2016-11-25 19:23:47,508 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 19:23:49,233 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 19:24:02,418 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 19:24:15,618 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 19:24:17,935 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:25:26,693 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:26:16,066 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:26:31,747 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:26:54,397 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 19:27:02,281 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:27:05,196 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:29:48,719 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 19:29:53,661 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:30:33,206 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:31:42,226 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:34:13,994 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:34:15,644 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:37:42,287 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:38:48,063 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 19:48:12,420 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:48:15,444 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:48:16,816 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:49:15,202 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:49:19,539 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:49:21,399 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:53:29,813 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:53:34,114 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:53:51,043 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:54:26,527 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:55:19,514 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:55:34,887 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:55:38,215 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:55:40,295 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 19:55:43,748 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:04:14,674 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:04:59,701 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:05:56,809 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:07:31,315 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:08:41,851 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:08:54,459 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:09:13,041 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:10:48,381 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:10:51,201 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:11:09,858 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:11:23,767 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:11:25,942 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:11:26,058 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:11:36,253 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:11:52,511 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:12:00,687 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:12:10,939 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:12:42,743 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 20:12:55,770 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 20:12:58,225 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:13:10,962 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:13:58,765 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:14:04,571 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 20:14:13,669 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 20:14:15,987 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:14:32,610 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:14:35,530 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:14:41,789 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:15:14,231 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:18:44,367 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:18:49,736 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:18:52,836 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:18:57,019 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:19:02,362 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:21:09,101 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:21:49,701 | index | logout | Someone requested to logout /logout
+INFO | 2016-11-25 20:21:49,776 | index | root | Someone visited the Home page /
+INFO | 2016-11-25 20:22:30,379 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 20:22:40,647 | index | login | Someone visited the Login page /login
+INFO | 2016-11-25 20:22:43,125 | index | profile | Someone visited the Personal Profile page /myprofile
+INFO | 2016-11-25 20:22:48,836 | index | logout | Someone requested to logout /logout
+INFO | 2016-11-25 20:22:48,902 | index | login | Someone visited the Login page /login
