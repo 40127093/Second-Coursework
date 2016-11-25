@@ -20,7 +20,7 @@ def email_exists(form, field):
 
 class RegisterForm(Form):
    username = StringField(
-     'Username',
+     'Username...',
       validators=[
         DataRequired(),
         Regexp(
@@ -31,24 +31,24 @@ class RegisterForm(Form):
         name_exists
     ])
    email = StringField(
-      'Email',
+      'Email...',
       validators=[
          DataRequired(),
          Email(),
          email_exists
     ])
    password = PasswordField(
-    'Password',
+    'Password...',
      validators=[
        DataRequired(),
        Length(min=2),
        EqualTo('password2', message='Passwords must match')
     ])
    password2 = PasswordField(
-      'Confirm Password',
+      'Confirm Password...',
        validators=[DataRequired()]
  )   
 
 class LoginForm(Form):
-     email = StringField('Email', validators=[DataRequired(), Email()])
-     password = PasswordField('Password', validators=[DataRequired()])
+     email = StringField('Email...', validators=[DataRequired(), Email()])
+     password = PasswordField('Password...', validators=[DataRequired()])
