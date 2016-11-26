@@ -51,25 +51,34 @@ def after_request(response):
 @app.route("/")
 def root():
   this_route = url_for('.root')
-  app.logger.info("Someone visited the Home page " + this_route)
-  return render_template('index.html')
+  app.logger.info("Someone visited the Landing page (Login) " + this_route)
+  return render_template('login.html')
 
 @app.route("/myprofile")
 def profile():
   this_route = url_for('.profile')
-  app.logger.info("Someone visited the Personal Profile page " + this_route)
-  return render_template('layout.html')
+  app.logger.info("Someone viewed the Personal Profile page " + this_route)
+  return render_template('portfolio.html')
 
-@app.route("/post-message", methods=('GET','POST'))
+@app.route("/post-feed", methods=('GET','POST'))
 @login_required
 def post():
+  this_route = url_for('.post')
+  app.logger.info("Someone viewed the Post Feed section" + this_route)
   form = forms.PostForm()
   if form.validate_on_submit():
     models.Post.create(user=g.user._get_current_object(),
                       content=form.content.data.strip())
     flash("Message posted!", "success")
-    return redirect(url_for('profile'))
+    return redirect(url_for('post'))
   return render_template('post.html', form=form)  
+
+@app.route("/about")
+def about():
+  this_route = url_for('.about')
+  app.logger.info("Someone viewed the About page " + this_route)
+  return render_template('about.html')
+
 
 
 @app.route('/register', methods=('GET','POST'))
