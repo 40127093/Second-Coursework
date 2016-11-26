@@ -14,7 +14,7 @@ from logging.handlers import RotatingFileHandler
 from flask import (Flask, url_for, g, render_template, flash, redirect)
 from flask.ext.bcrypt import check_password_hash
 from flask.ext.login import (LoginManager, login_user, logout_user,
-                             login_required)
+                             login_required, current_user)
 import models
 import forms
 
@@ -38,6 +38,7 @@ def before_request():
   """Connect to the database before each request."""
   g.db = models.DATABASE
   g.db.connect()
+  g.user = current_user
 
 
 @app.after_request
@@ -58,6 +59,18 @@ def profile():
   this_route = url_for('.profile')
   app.logger.info("Someone visited the Personal Profile page " + this_route)
   return render_template('layout.html')
+
+@app.route("/post-message", methods=('GET','POST'))
+@login_required
+def post():
+  form = forms.PostForm()
+  if form.validate_on_submit():
+    models.Post.create(user=g.user._get_current_object(),
+                      content=form.content.data.strip())
+    flash("Message posted!", "success")
+    return redirect(url_for('profile'))
+  return render_template('post.html', form=form)  
+
 
 @app.route('/register', methods=('GET','POST'))
 def register():
