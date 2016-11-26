@@ -49,3 +49,11 @@ input[type="text"], input[type="password"], textarea, textarea.form-control {
     border:1px solid #555;
     height:100px;
 }
+
+a.admiring {
+  padding-left:5%;
+}
+
+a.create {
+  padding-left:50%;
+}
