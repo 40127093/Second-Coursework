@@ -728,3 +728,58 @@ INFO | 2016-11-26 13:44:13,023 | index | about | Someone viewed the About page /
 INFO | 2016-11-26 13:44:14,821 | index | post | Someone viewed the Post Feed section/post-feed
 INFO | 2016-11-26 13:44:17,801 | index | post | Someone viewed the Post Feed section/post-feed
 INFO | 2016-11-26 13:44:20,806 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 13:51:09,795 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 13:51:10,413 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 13:56:33,623 | index | profile | Someone viewed the Personal Profile page /myprofile
+INFO | 2016-11-26 13:56:35,923 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 13:57:01,356 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 13:57:01,906 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 13:57:02,838 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 13:57:03,559 | index | root | Someone visited the Landing page (Login) /
+INFO | 2016-11-26 13:59:56,288 | index | login | Someone visited the Login page /login
+INFO | 2016-11-26 14:06:43,333 | index | profile | Someone viewed the Personal Profile page /myprofile
+INFO | 2016-11-26 14:06:46,387 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:06:50,800 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:10:55,112 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:11:59,317 | index | login | Someone visited the Login page /login
+INFO | 2016-11-26 14:12:54,275 | index | login | Someone visited the Login page /login
+INFO | 2016-11-26 14:12:59,034 | index | profile | Someone viewed the Personal Profile page /myprofile
+INFO | 2016-11-26 14:13:02,737 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:15:03,060 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:16:38,742 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:16:41,798 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:17:56,849 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:20:59,400 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:21:55,611 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:21:58,509 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:22:45,820 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:23:06,514 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:23:09,083 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:23:18,345 | index | login | Someone visited the Login page /login
+INFO | 2016-11-26 14:23:28,930 | index | profile | Someone viewed the Personal Profile page /myprofile
+INFO | 2016-11-26 14:23:33,140 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:23:48,172 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:23:50,149 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:24:00,371 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:25:47,788 | index | about | Someone viewed the About page /about
+INFO | 2016-11-26 14:25:50,332 | index | profile | Someone viewed the Personal Profile page /myprofile
+INFO | 2016-11-26 14:25:52,291 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:41:21,074 | index | profile | Someone viewed the Personal Profile page /myprofile
+INFO | 2016-11-26 14:41:24,112 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:41:27,219 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:41:27,527 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:41:43,597 | index | profile | Someone viewed the Personal Profile page /myprofile
+INFO | 2016-11-26 14:41:43,731 | index | profile | Someone viewed the Personal Profile page /myprofile
+INFO | 2016-11-26 14:41:44,627 | index | about | Someone viewed the About page /about
+INFO | 2016-11-26 14:41:45,368 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-26 14:41:46,006 | index | logout | Someone requested to logout /logout
+INFO | 2016-11-26 14:41:46,155 | index | login | Someone visited the Login page /login
+INFO | 2016-11-26 14:48:42,663 | index | login | Someone visited the Login page /login
+INFO | 2016-11-26 14:48:43,341 | index | root | Someone visited the Landing page (Login) /
+INFO | 2016-11-26 14:48:43,747 | index | profile | Someone viewed the Personal Profile page /myprofile
+INFO | 2016-11-26 14:48:44,269 | index | profile | Someone viewed the Personal Profile page /myprofile
+INFO | 2016-11-26 14:48:46,235 | index | login | Someone visited the Login page /login
+INFO | 2016-11-26 14:49:01,985 | index | login | Someone visited the Login page /login
+INFO | 2016-11-26 14:49:11,285 | index | login | Someone visited the Login page /login
+INFO | 2016-11-26 14:49:13,610 | index | profile | Someone viewed the Personal Profile page /myprofile
+INFO | 2016-11-26 14:49:15,780 | index | post | Someone viewed the Post Feed section/post-feed
