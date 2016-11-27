@@ -57,3 +57,11 @@ a.admiring {
 a.create {
   padding-left:50%;
 }
+
+.users-nav ul li {
+  display:inline-block;
+  padding-right:40px;
+  padding-top:20px;;
+}
+
+

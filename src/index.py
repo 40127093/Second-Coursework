@@ -54,14 +54,14 @@ def profile(username=None):
   template='portfolio.html'
   if username and username != current_user.username:
     user = models.User.select().where(models.User.username**username).get()
- #   this_route = url_for('.profile')
- #   app.logger.info("Someone viewed another person's personal Profile page " + this_route)
+    this_route = url_for('.profile')
+    app.logger.info( current_user.username + " viewed " + username + "'s personal Profile page " + this_route)
   else:
     user=current_user
-  #  this_route = url_for('.profile')
-  #  app.logger.info("Someone viewed their personal Profile page " + this_route)
- # if username:
- #   template = 'portfolio.html'
+    this_route = url_for('.profile')
+    app.logger.info( current_user.username  + " viewed his/her personal Profile page " + this_route)
+  if username:
+    template = 'portfolio.html'
   return render_template(template, user=user)  
 
 

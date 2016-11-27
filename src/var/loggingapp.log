@@ -945,3 +945,11 @@ INFO | 2016-11-27 10:38:46,356 | index | root | Someone visited the root page/
 INFO | 2016-11-27 10:38:46,822 | index | post | Someone viewed the Post Feed section/post-feed
 INFO | 2016-11-27 10:39:12,511 | index | about | Someone viewed the About page /about
 INFO | 2016-11-27 10:39:56,517 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-27 11:13:28,622 | index | profile | Someone viewed their personal Profile page /myprofile
+INFO | 2016-11-27 11:13:45,111 | index | profile | Someone viewed their personal Profile page /myprofile
+INFO | 2016-11-27 11:13:46,305 | index | profile | Someone viewed their personal Profile page /myprofile
+INFO | 2016-11-27 11:13:46,534 | index | profile | Someone viewed their personal Profile page /myprofile
+INFO | 2016-11-27 11:14:16,432 | index | profile | Someone viewed another person's personal Profile page /myprofile
+INFO | 2016-11-27 11:17:01,937 | index | profile | poisonphoebe viewed phoebetyner's personal Profile page /myprofile
+INFO | 2016-11-27 11:17:39,056 | index | profile | poisonphoebe viewed phoebetyner's personal Profile page /myprofile
+INFO | 2016-11-27 11:18:33,235 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
