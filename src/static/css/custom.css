@@ -74,3 +74,7 @@ a.create {
     background:white;
     margin-top:80px;
 }
+
+div.form-bottom {
+    padding:0px;
+}

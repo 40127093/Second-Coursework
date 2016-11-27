@@ -1,39 +1,9 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title>ArtsySocial</title>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta name="copyright" content="http://www.javascriptbank.com" />
-<script type="text/javascript"> 
 
-flag=1 
-function f1() 
-{
-    alert("Then you're on your own...Good luck with that!") 
-} 
-function f() 
-{ 
-  if(flag==1) 
-  { 
-      Bn.style.top=90 
-      Bn.style.left=500
-      flag=2 
-  } 
-  else if(flag==2) 
-  { 
-      Bn.style.top=90
-      Bn.style.left=50 
-      flag=3 
-   } 
-  else if(flag==3) 
-  { 
-      Bn.style.top=235 
-      Bn.style.left=360 
-      flag=1 
-      } 
-  } 
-  </script>
-
-<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -80,8 +50,10 @@ function f()
     <![endif]-->
 
 </head>
-<body>
-     <!-- Navigation -->
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -131,33 +103,20 @@ function f()
         <!-- /.container-fluid -->
 
     <section class="container" id="err-section">
-    
-    <div class="container">
+        <div class="container">
               {% block content %}
                 <h1>404</h1>
 
                 <p>Oops you did it again! Wrong path pal... </p>
-                 
-  
-<h3 style="position:absolute; left:320px; top:175px; width:auto;
-height:210px;"> Need some help?</h3>
-<div id="By" style="position:absolute;left:285px; top:235px; width:210px;
-height:210px;">
-  <input type="button" value=" No " onclick="f1()" />
-  </div>
-  <div id="Bn" style="position:absolute;left:360px; top:235px; width:210px;
-  height:210px;">
-    <input type="button" value=" Yes " onmouseover="f()" />
-    </div>
-             
-      
+                
+               
+        </div>
     </section>
               {% endblock %}
               
              </div>
 
-
-    <!-- Footer -->
+<!-- Footer -->
     <footer class="text-center">
         <div class="footer-above">
             <div class="container">
@@ -188,9 +147,8 @@ height:210px;">
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>About ArtsySocial</h3>
-                        <p>ArtsySocial is a free to use,  open source social
-                        network created by Phoebe Kalatzi.</p>
+                        <h3>About Freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
                     </div>
                 </div>
             </div>
@@ -208,5 +166,10 @@ height:210px;">
 
 
 </div>
-    </body>
-    </html>
+
+  
+
+    
+</body>
+
+</html>
