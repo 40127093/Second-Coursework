@@ -1,24 +1,6 @@
 {% extends 'layout.html' %}
 {% block content %}
 
- <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src={{url_for('static',
-                    filename='img/test-user2.jpg')}} alt="">
-                    <div class="intro-text">
-                      <span class="username-display"> Profile User</span>
-                    <!--  {% if (current_user.is_authenticated) %}
-                      {{ current_user.username }} {% endif %} -->
-                        <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
 
 <!-- About Section -->
 <section class="container" id="about">
@@ -36,7 +18,7 @@
                 <div class="col-lg-4">
                     <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                 </div>
-                          </div>
+           </div>
         </div>
     </section>
 

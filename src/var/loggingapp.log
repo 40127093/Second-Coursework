@@ -953,3 +953,17 @@ INFO | 2016-11-27 11:14:16,432 | index | profile | Someone viewed another person
 INFO | 2016-11-27 11:17:01,937 | index | profile | poisonphoebe viewed phoebetyner's personal Profile page /myprofile
 INFO | 2016-11-27 11:17:39,056 | index | profile | poisonphoebe viewed phoebetyner's personal Profile page /myprofile
 INFO | 2016-11-27 11:18:33,235 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-27 11:23:33,866 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-27 11:24:24,113 | index | about | poisonphoebe viewed his/her personal About Me page /about
+INFO | 2016-11-27 11:24:36,936 | index | about | poisonphoebe viewed his/her personal About Me page /about
+INFO | 2016-11-27 11:24:37,346 | index | about | poisonphoebe viewed his/her personal About Me page /about
+INFO | 2016-11-27 11:24:41,275 | index | about | poisonphoebe viewed phoebetyner's personal About page /about
+INFO | 2016-11-27 11:25:15,778 | index | about | poisonphoebe viewed phoebetyner's personal About page /about
+INFO | 2016-11-27 11:25:26,054 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-27 11:27:31,157 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-27 11:27:31,511 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-27 11:27:39,848 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-27 11:27:40,221 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-27 11:33:07,114 | index | root | Someone visited the root page/
+INFO | 2016-11-27 11:33:07,566 | index | root | Someone visited the root page/
+INFO | 2016-11-27 11:33:57,715 | index | root | Someone visited the root page/

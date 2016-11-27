@@ -64,4 +64,7 @@ a.create {
   padding-top:20px;;
 }
 
-
+.grid-50 div {
+  display:inline-block;
+  padding-right:35px;
+}

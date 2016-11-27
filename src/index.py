@@ -65,6 +65,23 @@ def profile(username=None):
   return render_template(template, user=user)  
 
 
+@app.route("/about/<username>")
+@app.route("/about")
+@login_required
+def about(username=None):
+  template='about.html'
+  if username and username != current_user.username:
+     user = models.User.select().where(models.User.username**username).get()
+     this_route = url_for('.about')
+     app.logger.info( current_user.username + " viewed " + username + "'s personal About page " + this_route)
+  else:
+    user=current_user
+    this_route = url_for('.about')
+    app.logger.info( current_user.username  + " viewed his/her personal About Me page " + this_route)
+  if username:
+    template = 'about.html'
+  return render_template(template, user=user)  
+
 
 @app.route("/post-feed", methods=('GET','POST'))
 @login_required
@@ -80,19 +97,12 @@ def post():
   return render_template('post.html', form=form)  
 
 
-@app.route("/about")
-def about():
-  this_route = url_for('.about')
-  app.logger.info("Someone viewed the About page " + this_route)
-  return render_template('about.html')
-
-
 @app.route("/")
-def root():
+def root(username=None):
   this_route = url_for('.root')
   app.logger.info("Someone visited the root page" + this_route)
   stream = models.Post.select().limit(100)
-  return render_template('stream.html', stream=stream)
+  return render_template('stream.html', stream=stream, user=user)
 
 
 @app.route('/stream')

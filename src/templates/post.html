@@ -3,26 +3,7 @@
 
 {% block content %}
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src={{url_for('static',
-                    filename='img/test-user2.jpg')}} alt="">
-                    <div class="intro-text">
-                      <span class="username-display"> Profile User</span>
-                    <!--  {% if (current_user.is_authenticated) %}
-                      {{ current_user.username }} {% endif %} -->
-                        <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Post-Feed Section -->
+  <!-- Post-Feed Section -->
     <section id="postfeed">
         <div class="container">
             <div class="row">
@@ -34,12 +15,12 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
          <div class="post-nav">
-         <a class="see-all" href="{{url_for('stream')}}">See All</a>
-         {% if (current_user.is_authenticated)%}
-         <a class="admiring" href="{{url_for('stream',
-         username=current_user.username)}}">Admiring</a>
-         <a class="create" href="{{url_for('post')}}" class="new">Create New Post</a>
-         {% endif %}
+           <a class="see-all" href="{{url_for('stream')}}">See All</a>
+           {% if (current_user.is_authenticated)%}
+           <a class="admiring" href="{{url_for('stream',
+           username=current_user.username)}}">Admiring</a>
+           <a class="create" href="{{url_for('post')}}" class="new">Create New Post</a>
+           {% endif %}
          </div>
 
     <form method="POST" action="">
