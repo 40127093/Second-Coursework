@@ -1057,3 +1057,14 @@ INFO | 2016-11-27 17:48:23,980 | index | profile | michaelroum viewed his/her pe
 INFO | 2016-11-27 17:48:31,189 | index | about | michaelroum viewed his/her personal About Me page /about
 INFO | 2016-11-27 17:48:45,874 | index | logout | Someone requested to logout /logout
 INFO | 2016-11-27 17:48:46,144 | index | login | Someone visited the Login page /login
+INFO | 2016-11-27 17:52:02,084 | index | register | Someone visited the Register page /register
+INFO | 2016-11-27 17:52:04,249 | index | login | Someone visited the Login page /login
+INFO | 2016-11-27 17:55:17,450 | index | login | Someone visited the Login page /login
+INFO | 2016-11-27 17:55:19,918 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-27 18:41:25,682 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-27 18:41:30,812 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-27 18:41:32,201 | index | root | Someone visited the root page/
+INFO | 2016-11-27 18:59:03,552 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-27 18:59:07,368 | index | about | phoebetyner viewed his/her personal About Me page /about
+INFO | 2016-11-27 18:59:12,803 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-27 18:59:36,930 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
