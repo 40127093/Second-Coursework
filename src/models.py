@@ -12,6 +12,7 @@ from peewee import *
 
 DATABASE = SqliteDatabase('social.db')
 
+
 # user class to save our user's personal details
 class User(UserMixin, Model):
     username = CharField(unique=True)

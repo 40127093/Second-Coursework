@@ -47,12 +47,23 @@ def after_request(response):
   g.db.close()
   return response
 
-
+@app.route("/myprofile/<username>")
 @app.route("/myprofile")
-def profile():
-  this_route = url_for('.profile')
-  app.logger.info("Someone viewed the Personal Profile page " + this_route)
-  return render_template('portfolio.html')
+@login_required
+def profile(username=None):
+  template='portfolio.html'
+  if username and username != current_user.username:
+    user = models.User.select().where(models.User.username**username).get()
+ #   this_route = url_for('.profile')
+ #   app.logger.info("Someone viewed another person's personal Profile page " + this_route)
+  else:
+    user=current_user
+  #  this_route = url_for('.profile')
+  #  app.logger.info("Someone viewed their personal Profile page " + this_route)
+ # if username:
+ #   template = 'portfolio.html'
+  return render_template(template, user=user)  
+
 
 
 @app.route("/post-feed", methods=('GET','POST'))

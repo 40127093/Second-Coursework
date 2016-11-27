@@ -5,7 +5,7 @@
   <article>
     <h2>
       <a href="{{url_for('stream', username = post.user.username) }}">
-      {{post.user.username }} </a>
+      {{post.user.username }}</a>
     </h2>
     <i class="clock"></i><time data-time="{{ post.timestamp }}" class="distime"
     datetime="{{ post.timestamp.strftime('%Y-%m-%d %H:%M:%S')}}"> {{

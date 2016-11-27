@@ -100,7 +100,7 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <!-- Header -->
+    <!-- Header --> 
     <header>
         <div class="container">
             <div class="row">
@@ -108,9 +108,14 @@
                     <img class="img-responsive" src={{url_for('static',
                     filename='img/test-user2.jpg')}} alt="">
                     <div class="intro-text">
-                      <span class="username-display">Profile User</span>
-                    <!--  {% if (current_user.is_authenticated) %}
-                      {{ current_user.username }} {% endif %} -->
+                      <span class="username-display">
+                      {% if (current_user.is_authenticated and
+                      current_user.username == user.username) %}
+                        {{ current_user.username }} 
+                      {% else %} 
+                        {{ user.username}}
+                      {% endif %}  
+                      </span>
                         <hr class="star-light">
                         <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
                     </div>
@@ -120,7 +125,7 @@
     </header>
 
     <!-- Portfolio Grid Section 
-    <section id="portfolio">
+    <section id="portfolio"> 
       </section> --> 
 
     <!-- About Section 
