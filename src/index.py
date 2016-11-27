@@ -11,7 +11,7 @@ from flask.exthook import ExtDeprecationWarning
 warnings.simplefilter('ignore', ExtDeprecationWarning)
 
 from logging.handlers import RotatingFileHandler
-from flask import (Flask, url_for, g, render_template, flash, redirect)
+from flask import (Flask, url_for, g, render_template, flash, redirect, abort)
 from flask.ext.bcrypt import check_password_hash
 from flask.ext.login import (LoginManager, login_user, logout_user,
                              login_required, current_user)
@@ -110,8 +110,12 @@ def root(username=None):
 def stream(username=None):
   template='stream.html'
   if username and username != current_user.username:
-    user = models.User.select().where(models.User.username**username).get()
-    stream=user.posts.limit(100)
+    try:
+       user = models.User.select().where(models.User.username**username).get()
+    except models.DoesNotExist:
+      abort(404)
+    else:  
+       stream=user.posts.limit(100)
   else:
     stream=current_user.get_stream().limit(100)
     user=current_user
@@ -196,6 +200,13 @@ def logs(app):
   app.logger.setLevel(app.config['log_level'])
   app.logger.addHandler(file_handler)
 
+@app.errorhandler(404)
+def not_found(error):
+  return render_template('404.html'), 404
+
+@app.route('/test')
+def test():
+  return render_template('404test.html')
 
 # initialisation function
 

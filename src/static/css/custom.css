@@ -68,3 +68,9 @@ a.create {
   display:inline-block;
   padding-right:35px;
 }
+
+#err-section {
+    height:300px;
+    background:white;
+    margin-top:80px;
+}

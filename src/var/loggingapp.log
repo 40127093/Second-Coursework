@@ -967,3 +967,30 @@ INFO | 2016-11-27 11:27:40,221 | index | post | Someone viewed the Post Feed sec
 INFO | 2016-11-27 11:33:07,114 | index | root | Someone visited the root page/
 INFO | 2016-11-27 11:33:07,566 | index | root | Someone visited the root page/
 INFO | 2016-11-27 11:33:57,715 | index | root | Someone visited the root page/
+INFO | 2016-11-27 13:47:01,483 | index | root | Someone visited the root page/
+INFO | 2016-11-27 13:47:01,763 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-27 13:47:03,086 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-27 13:47:03,756 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-27 13:53:36,025 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-27 13:53:44,392 | index | post | Someone viewed the Post Feed section/post-feed
+INFO | 2016-11-27 13:53:45,790 | index | root | Someone visited the root page/
+INFO | 2016-11-27 13:53:46,263 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-27 13:53:46,713 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-27 13:54:29,310 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-27 13:54:30,470 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-27 13:58:08,576 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-27 13:58:47,001 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-27 14:07:25,209 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-27 14:07:25,744 | index | root | Someone visited the root page/
+INFO | 2016-11-27 14:07:44,081 | index | about | phoebetyner viewed his/her personal About Me page /about
+INFO | 2016-11-27 14:42:44,895 | index | about | phoebetyner viewed his/her personal About Me page /about
+INFO | 2016-11-27 14:42:45,661 | index | root | Someone visited the root page/
+INFO | 2016-11-27 14:52:01,299 | index | root | Someone visited the root page/
+INFO | 2016-11-27 14:57:18,747 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-27 14:57:30,444 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-27 15:04:46,096 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-27 15:05:18,489 | index | root | Someone visited the root page/
+INFO | 2016-11-27 15:12:48,663 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-27 15:18:05,676 | index | about | phoebetyner viewed his/her personal About Me page /about
+INFO | 2016-11-27 15:18:18,905 | index | about | phoebetyner viewed his/her personal About Me page /about
+INFO | 2016-11-27 15:46:12,995 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
