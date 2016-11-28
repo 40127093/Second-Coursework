@@ -1533,3 +1533,129 @@ INFO | 2016-11-28 20:07:29,828 | index | stream | phoebetyner viewed his/her Str
 INFO | 2016-11-28 20:07:36,049 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
 INFO | 2016-11-28 20:07:41,884 | index | stream | phoebetyner viewed his/her Stream section  /stream
 INFO | 2016-11-28 20:07:47,987 | index | stream | phoebetyner viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:34:16,866 | index | stream | phoebetyner viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:34:32,881 | index | stream | phoebetyner viewed poisonphoebe's Stream section  /stream
+INFO | 2016-11-28 20:34:33,732 | index | stream | phoebetyner viewed poisonphoebe's Stream section  /stream
+INFO | 2016-11-28 20:34:37,366 | index | unfollow | phoebetyner is now unfollowing poisonphoebe
+INFO | 2016-11-28 20:34:37,670 | index | stream | phoebetyner viewed poisonphoebe's Stream section  /stream
+INFO | 2016-11-28 20:34:41,100 | index | follow | phoebetyner is now following poisonphoebe
+INFO | 2016-11-28 20:34:41,215 | index | stream | phoebetyner viewed poisonphoebe's Stream section  /stream
+INFO | 2016-11-28 20:34:47,310 | index | logout | phoebetyner requested to logout /logout
+INFO | 2016-11-28 20:34:47,379 | index | login | Someone visited the Login page /login
+INFO | 2016-11-28 20:34:58,341 | index | login | Someone visited the Login page /login
+INFO | 2016-11-28 20:35:00,656 | index | profile | michaelroum viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 20:35:08,665 | index | stream | michaelroum viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:35:12,248 | index | stream | michaelroum viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:35:16,416 | index | stream | michaelroum viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:35:20,159 | index | post | michaelroum created a new post on his/her post feed section /new_post
+INFO | 2016-11-28 20:35:58,250 | index | post | michaelroum created a new post on his/her post feed section /new_post
+INFO | 2016-11-28 20:35:58,374 | index | root | michaelroum was redirected to the root page  /
+INFO | 2016-11-28 20:37:55,055 | index | profile | michaelroum viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 20:37:57,382 | index | profile | michaelroum viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 20:38:11,555 | index | profile | michaelroum viewed phoebetyner's personal Profile page /myprofile
+INFO | 2016-11-28 20:38:33,445 | index | profile | michaelroum viewed poisonphoebe's personal Profile page /myprofile
+INFO | 2016-11-28 20:38:34,897 | index | profile | michaelroum viewed poisonphoebe's personal Profile page /myprofile
+INFO | 2016-11-28 20:38:43,945 | index | profile | michaelroum viewed poisonphoebe's personal Profile page /myprofile
+INFO | 2016-11-28 20:39:13,836 | index | profile | michaelroum viewed poisonphoebe's personal Profile page /myprofile
+INFO | 2016-11-28 20:42:50,700 | index | profile | michaelroum viewed poisonphoebe's personal Profile page /myprofile
+INFO | 2016-11-28 20:43:08,119 | index | profile | michaelroum viewed poisonphoebe's personal Profile page /myprofile
+INFO | 2016-11-28 20:43:11,426 | index | about | michaelroum viewed poisonphoebe's personal About page /about
+INFO | 2016-11-28 20:43:20,017 | index | stream | michaelroum viewed poisonphoebe's Stream section  /stream
+INFO | 2016-11-28 20:43:28,607 | index | about | michaelroum viewed poisonphoebe's personal About page /about
+INFO | 2016-11-28 20:43:31,671 | index | profile | michaelroum viewed poisonphoebe's personal Profile page /myprofile
+INFO | 2016-11-28 20:43:36,495 | index | stream | michaelroum viewed poisonphoebe's Stream section  /stream
+INFO | 2016-11-28 20:43:41,212 | index | about | michaelroum viewed poisonphoebe's personal About page /about
+INFO | 2016-11-28 20:43:45,288 | index | about | michaelroum viewed poisonphoebe's personal About page /about
+INFO | 2016-11-28 20:43:51,709 | index | profile | michaelroum viewed poisonphoebe's personal Profile page /myprofile
+INFO | 2016-11-28 20:43:59,449 | index | profile | michaelroum viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 20:43:59,890 | index | profile | michaelroum viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 20:45:43,183 | index | profile | michaelroum viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 20:45:48,156 | index | stream | michaelroum viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:45:59,186 | index | stream | michaelroum viewed poisonphoebe's Stream section  /stream
+INFO | 2016-11-28 20:45:59,981 | index | stream | michaelroum viewed poisonphoebe's Stream section  /stream
+INFO | 2016-11-28 20:46:09,199 | index | profile | michaelroum viewed poisonphoebe's personal Profile page /myprofile
+INFO | 2016-11-28 20:46:19,489 | index | about | michaelroum viewed poisonphoebe's personal About page /about
+INFO | 2016-11-28 20:46:22,460 | index | stream | michaelroum viewed poisonphoebe's Stream section  /stream
+INFO | 2016-11-28 20:46:31,943 | index | stream | michaelroum viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:46:32,161 | index | stream | michaelroum viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:46:35,820 | index | about | michaelroum viewed his/her personal About Me page /about
+INFO | 2016-11-28 20:46:38,325 | index | profile | michaelroum viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 20:50:28,426 | index | stream | michaelroum viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:51:00,161 | index | logout | michaelroum requested to logout /logout
+INFO | 2016-11-28 20:51:00,373 | index | login | Someone visited the Login page /login
+INFO | 2016-11-28 20:51:12,769 | index | login | Someone visited the Login page /login
+INFO | 2016-11-28 20:51:15,086 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 20:51:18,349 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:51:21,532 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:51:39,954 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:51:50,844 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:51:51,517 | index | stream | poisonphoebe viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 20:51:53,069 | index | stream | poisonphoebe viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 20:52:12,889 | index | follow | poisonphoebe is now following michaelroum
+INFO | 2016-11-28 20:52:12,993 | index | stream | poisonphoebe viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 20:52:15,612 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:52:19,244 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:52:26,968 | index | stream | poisonphoebe viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 20:52:29,521 | index | unfollow | poisonphoebe is now unfollowing michaelroum
+INFO | 2016-11-28 20:52:29,642 | index | stream | poisonphoebe viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 20:52:31,661 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:52:37,919 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:52:48,782 | index | stream | poisonphoebe viewed phoebetyner's Stream section  /stream
+INFO | 2016-11-28 20:52:49,828 | index | stream | poisonphoebe viewed phoebetyner's Stream section  /stream
+INFO | 2016-11-28 20:52:58,932 | index | follow | poisonphoebe is now following phoebetyner
+INFO | 2016-11-28 20:52:59,036 | index | stream | poisonphoebe viewed phoebetyner's Stream section  /stream
+INFO | 2016-11-28 20:53:04,420 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:53:38,997 | index | post | poisonphoebe created a new post on his/her post feed section /new_post
+INFO | 2016-11-28 20:55:09,599 | index | post | poisonphoebe created a new post on his/her post feed section /new_post
+INFO | 2016-11-28 20:55:09,719 | index | root | poisonphoebe was redirected to the root page  /
+INFO | 2016-11-28 20:55:27,231 | index | stream | poisonphoebe viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 20:55:31,433 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:58:14,265 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:58:55,045 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 20:59:30,615 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:00:10,887 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:00:34,758 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:01:49,825 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:02:17,286 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:03:11,841 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:03:28,584 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:03:30,938 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:03:36,203 | index | post | poisonphoebe created a new post on his/her post feed section /new_post
+INFO | 2016-11-28 21:03:38,855 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:04:05,315 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:04:08,834 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:04:32,043 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:04:42,707 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:04:44,642 | index | stream | poisonphoebe viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 21:04:45,623 | index | stream | poisonphoebe viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 21:04:48,922 | index | follow | poisonphoebe is now following michaelroum
+INFO | 2016-11-28 21:04:49,040 | index | stream | poisonphoebe viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 21:04:51,417 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:05:00,234 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:05:10,605 | index | profile | poisonphoebe viewed michaelroum's personal Profile page /myprofile
+INFO | 2016-11-28 21:05:11,307 | index | profile | poisonphoebe viewed michaelroum's personal Profile page /myprofile
+INFO | 2016-11-28 21:05:17,113 | index | about | poisonphoebe viewed michaelroum's personal About page /about
+INFO | 2016-11-28 21:05:20,876 | index | stream | poisonphoebe viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 21:05:28,394 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:05:36,043 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:10:49,181 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:14:10,693 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:14:40,006 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:15:29,712 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:19:14,107 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:20:39,262 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:21:22,322 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:22:13,517 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:23:13,522 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:23:16,247 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:24:09,721 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:24:14,575 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:28:30,969 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:28:34,358 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:28:55,517 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:28:56,349 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:28:57,270 | index | profile | poisonphoebe viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:29:23,332 | index | profile | poisonphoebe viewed phoebetyner's personal Profile page /myprofile
+INFO | 2016-11-28 21:29:47,751 | index | about | poisonphoebe viewed phoebetyner's personal About page /about
+INFO | 2016-11-28 21:29:52,908 | index | stream | poisonphoebe viewed phoebetyner's Stream section  /stream
+INFO | 2016-11-28 21:29:58,862 | index | stream | poisonphoebe viewed his/her Stream section  /stream

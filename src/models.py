@@ -16,7 +16,7 @@ from flask.ext.bcrypt import generate_password_hash
 from flask.ext.login import UserMixin
 from peewee import *
 
-DATABASE = SqliteDatabase('var/social.db')
+DATABASE = SqliteDatabase('var/updated-social.db')
 
 
 # user class to save our user's personal details

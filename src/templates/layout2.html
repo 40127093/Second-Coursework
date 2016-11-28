@@ -117,7 +117,13 @@
                       {% endif %}
                       </span>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        {% if (user.username==current_user.username) %}
+                           <span class="skills">Experienced Photographer - Expert
+                           in Adobe Photoshop</span>
+                        {% else %}
+                           <span class="skills">Infographics - Expert
+                           in Graphic Design and Advertising </span>
+                        {% endif %}
                     <div class="users-nav">
                         <ul>
                             <li><a
