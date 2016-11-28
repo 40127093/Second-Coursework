@@ -83,26 +83,30 @@ def about(username=None):
   return render_template(template, user=user)  
 
 
-@app.route("/post-feed", methods=('GET','POST'))
+@app.route("/new_post", methods=('GET','POST'))
 @login_required
-def post():
-  this_route = url_for('.post')
-  app.logger.info("Someone viewed the Post Feed section" + this_route)
+def post(username=None):
+  if username and username != current_user.username:
+    user = models.User.select().where(models.User.username**username).get()
+    this_route = url_for('.post')
+    app.logger.info("Someone viewed the Post Feed section" + this_route)
+  else:
+    user=current_user
   form = forms.PostForm()
   if form.validate_on_submit():
     models.Post.create(user=g.user._get_current_object(),
                       content=form.content.data.strip())
     flash("Message posted!", "success")
-    return redirect(url_for('post'))
-  return render_template('post.html', form=form)  
+    return redirect(url_for('root'))
+  return render_template('post.html', form=form, user=user)  
 
 
 @app.route("/")
-def root(username=None):
+def root():
   this_route = url_for('.root')
   app.logger.info("Someone visited the root page" + this_route)
   stream = models.Post.select().limit(100)
-  return render_template('stream.html', stream=stream, user=user)
+  return render_template('stream.html', stream=stream)
 
 
 @app.route('/stream')
@@ -122,6 +126,12 @@ def stream(username=None):
   if username:
       template = 'user-stream.html'
   return render_template(template, stream=stream, user=user)    
+
+@app.route('/post/<int:post_id>')
+def view_post(post_id):
+  posts = models.Post.select().where(models.Post.id == post_id)
+  return render_template('stream.html', stream=posts)
+
 
 @app.route('/register', methods=('GET','POST'))
 def register():

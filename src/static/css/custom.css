@@ -5,8 +5,13 @@
 }
 
 img.img-responsive {
-  width:110px;
-  height:150px;
+  width:350px;
+  height:250px;
+}
+
+img.avatar {
+  width:120px;
+  height:170px;
 }
 
 img.logo {
@@ -77,4 +82,14 @@ a.create {
 
 div.form-bottom {
     padding:0px;
+}
+
+.stats-row div {
+  display:inline-block;
+  padding:15px;
+}
+
+.stats-row .btn {
+  width:100px;
+  color:black;
 }

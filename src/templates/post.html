@@ -1,28 +1,9 @@
-{% extends "layout.html" %}
+{% extends "layout2.html" %}
 {% from 'macros.html' import render_field %}
 
 {% block content %}
 
-  <!-- Post-Feed Section -->
-    <section id="postfeed">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Post Feed</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-         <div class="post-nav">
-           <a class="see-all" href="{{url_for('stream')}}">See All</a>
-           {% if (current_user.is_authenticated)%}
-           <a class="admiring" href="{{url_for('stream',
-           username=current_user.username)}}">Admiring</a>
-           <a class="create" href="{{url_for('post')}}" class="new">Create New Post</a>
-           {% endif %}
-         </div>
-
+  
     <form method="POST" action="">
       {{ form.hidden_tag() }}
       {% for field in form %}
@@ -30,11 +11,6 @@
       {% endfor %}
       <button type="submit" id="submit" class="btn">Post!</button>
     </form>  
-
-                </div>
-            </div>
-        </div>
-    </section>
 
 
 {% endblock %}
