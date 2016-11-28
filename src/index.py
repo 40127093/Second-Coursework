@@ -7,8 +7,13 @@ import sys
 
 sys.dont_write_bytecode = True
 
+# necessary import to ignore any ExtdepricationWarning warnings for external
+# libraries
+
 from flask.exthook import ExtDeprecationWarning
 warnings.simplefilter('ignore', ExtDeprecationWarning)
+
+# other essential imports
 
 from logging.handlers import RotatingFileHandler
 from flask import (Flask, url_for, g, render_template, flash, redirect, abort)
@@ -32,20 +37,24 @@ def load_user(userid):
   except models.DoesNotExist:
     return None
 
+# to connect to the database before each request
 
 @app.before_request
 def before_request():
-  """Connect to the database before each request."""
   g.db = models.DATABASE
   g.db.connect()
   g.user = current_user
 
 
+# to close the database connection after each request
+
 @app.after_request
 def after_request(response):
-  """Close the database connection after each request."""
   g.db.close()
   return response
+
+
+# routing to my landing page which is the portfolio section
 
 @app.route("/myprofile/<username>")
 @app.route("/myprofile")
@@ -69,6 +78,8 @@ def profile(username=None):
       return render_template(template, user=user)  
 
 
+# routing to the about section
+
 @app.route("/about/<username>")
 @app.route("/about")
 @login_required
@@ -91,15 +102,21 @@ def about(username=None):
       return render_template(template, user=user)  
 
 
+# routing to the create a new post section
+
 @app.route("/new_post", methods=('GET','POST'))
 @login_required
 def post(username=None):
   if username and username != current_user.username:
     user = models.User.select().where(models.User.username**username).get()
     this_route = url_for('.post')
-    app.logger.info("Someone viewed the Post Feed section" + this_route)
+    app.logger.info( current_user.username + " created a new post on " +
+    username + "'s post feed section " + this_route)
   else:
     user=current_user
+    this_route = url_for('.post')
+    app.logger.info( current_user.username + " created a new post on his/her post feed section "
+    + this_route)
   form = forms.PostForm()
   if form.validate_on_submit():
     models.Post.create(user=g.user._get_current_object(),
@@ -109,6 +126,9 @@ def post(username=None):
   return render_template('post.html', form=form, user=user)  
 
 
+# the user is redirected to the root page after posting a new message and can
+# view their recent posts on the post feed section
+
 @app.route("/")
 def root(username=None):
   if username and username != current_user.username:
@@ -116,28 +136,40 @@ def root(username=None):
   else:
     user = current_user
   this_route = url_for('.root')
-  app.logger.info("Someone visited the root page" + this_route)
+  app.logger.info(current_user.username + " was redirected to the root page  " + this_route)
   stream = models.Post.select().limit(100)
   return render_template('stream.html',user=user, stream=stream)
 
+
+# routing to the posts stream section
 
 @app.route('/stream')
 @app.route('/stream/<username>')
 def stream(username=None):
   template='stream.html'
   if username and username != current_user.username:
+    this_route = url_for('.stream')
+    app.logger.info(current_user.username + " viewed " + username + "'s Stream section  " 
+    + this_route)
     try:
        user = models.User.select().where(models.User.username**username).get()
     except models.DoesNotExist:
-      abort(404)
+       abort(404)
     else:  
        stream=user.posts.limit(100)
   else:
     stream=current_user.get_stream().limit(100)
     user=current_user
+    this_route = url_for('.stream')
+    app.logger.info(current_user.username + " viewed his/her Stream section  " 
+       + this_route)
+
   if username:
       template = 'user-stream.html'
   return render_template(template, stream=stream, user=user)    
+
+
+# routing to each individual post
 
 @app.route('/post/<int:post_id>')
 def view_post(post_id):
@@ -146,7 +178,7 @@ def view_post(post_id):
     abort(404)
   return render_template('stream.html', stream=posts)
 
-
+# routing to the register page
 @app.route('/register', methods=('GET','POST'))
 def register():
   this_route = url_for('.register')
@@ -161,6 +193,9 @@ def register():
     )
     return redirect(url_for('profile'))
   return render_template('register.html', form=form) 
+
+
+# routing to the login page
 
 @app.route('/login', methods=('GET','POST'))  
 def login():
@@ -181,11 +216,13 @@ def login():
         flash("Your email or password doesn't match!", "error")
   return render_template('login.html', form=form)
 
+
+# routing to the logout page which redirects the user to the login page
 @app.route('/logout')
 @login_required
 def logout():
   this_route = url_for('.logout')
-  app.logger.info("Someone requested to logout " + this_route)
+  app.logger.info( current_user.username + " requested to logout " + this_route)
   logout_user()
   flash("You've been logged out. Come back soon!","success")
   return redirect(url_for('login'))
@@ -224,9 +261,16 @@ def logs(app):
   app.logger.setLevel(app.config['log_level'])
   app.logger.addHandler(file_handler)
 
+
+# error handling mechanism to catch all the 404 errors and to redirect the user to
+# a custom 404 page
+
 @app.errorhandler(404)
 def not_found(error):
   return render_template('404.html'), 404
+
+
+# function that adds one follower in the relationship table for the selected user
 
 @app.route('/follow/<username>')
 @login_required
@@ -245,7 +289,12 @@ def follow(username):
            pass
        else:
            flash("You're now following {}!".format(to_user.username),"success")
+           app.logger.info(current_user.username + " is now following " + username)
   return redirect(url_for('stream',username=to_user.username))    
+
+
+# function that deletes the follower instance from the relationship table for
+# the selected user
 
 @app.route('/unfollow/<username>')
 @login_required
@@ -264,6 +313,8 @@ def unfollow(username):
            pass
        else:
            flash("You've unfollowed {}!".format(to_user.username),"success")
+           app.logger.info(current_user.username + " is now unfollowing " +
+           username)
   return redirect(url_for('stream',username=to_user.username))    
 
 
@@ -274,6 +325,7 @@ if __name__ == "__main__":
   logs(app)
   models.initialize()
   try:
+  # first user created to populate the user table
     models.User.create_user(
        username='poisonphoebe',
        email='poisonphoebe@hotmail.com',

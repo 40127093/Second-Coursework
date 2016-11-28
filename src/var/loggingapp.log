@@ -1223,3 +1223,32 @@ INFO | 2016-11-28 13:41:32,305 | index | about | phoebetyner viewed his/her pers
 INFO | 2016-11-28 13:41:38,690 | index | about | phoebetyner viewed his/her personal About Me page /about
 INFO | 2016-11-28 13:43:14,772 | index | about | phoebetyner viewed his/her personal About Me page /about
 INFO | 2016-11-28 13:43:15,618 | index | about | phoebetyner viewed his/her personal About Me page /about
+INFO | 2016-11-28 14:02:50,911 | index | root | phoebetyner was redirected to the root page/
+INFO | 2016-11-28 14:10:35,222 | index | stream | phoebetyner viewed poisonphoebe's stream section/stream
+INFO | 2016-11-28 14:10:43,794 | index | stream | phoebetyner viewed poisonphoebe's stream section/stream
+INFO | 2016-11-28 14:10:45,626 | index | stream | phoebetyner viewed his-her stream section/stream
+INFO | 2016-11-28 14:10:45,890 | index | stream | phoebetyner viewed his-her stream section/stream
+INFO | 2016-11-28 14:24:50,892 | index | stream | phoebetyner viewed poisonphoebe's Stream section  /stream
+INFO | 2016-11-28 14:25:20,037 | index | stream | phoebetyner viewed his/her Stream section  /stream
+INFO | 2016-11-28 14:25:30,932 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 14:25:31,585 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 14:27:13,815 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 14:27:19,449 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 14:29:26,349 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 14:31:27,442 | index | follow | phoebetyner is now following michaelroum
+INFO | 2016-11-28 14:31:27,678 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 14:31:29,012 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 14:31:31,321 | index | unfollow | phoebetyner is now unfollowing michaelroum
+INFO | 2016-11-28 14:31:31,455 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 14:31:40,854 | index | unfollow | phoebetyner is now unfollowing michaelroum
+INFO | 2016-11-28 14:31:40,971 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 14:31:55,699 | index | unfollow | phoebetyner is now unfollowing michaelroum
+INFO | 2016-11-28 14:31:55,799 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 14:32:05,125 | index | unfollow | phoebetyner is now unfollowing michaelroum
+INFO | 2016-11-28 14:32:05,299 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 14:32:15,143 | index | follow | phoebetyner is now following michaelroum
+INFO | 2016-11-28 14:32:15,242 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 14:32:26,652 | index | unfollow | phoebetyner is now unfollowing michaelroum
+INFO | 2016-11-28 14:32:26,756 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-28 14:32:33,165 | index | follow | phoebetyner is now following michaelroum
+INFO | 2016-11-28 14:32:33,269 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
