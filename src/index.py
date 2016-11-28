@@ -52,17 +52,21 @@ def after_request(response):
 @login_required
 def profile(username=None):
   template='portfolio.html'
-  if username and username != current_user.username:
-    user = models.User.select().where(models.User.username**username).get()
-    this_route = url_for('.profile')
-    app.logger.info( current_user.username + " viewed " + username + "'s personal Profile page " + this_route)
-  else:
-    user=current_user
-    this_route = url_for('.profile')
-    app.logger.info( current_user.username  + " viewed his/her personal Profile page " + this_route)
-  if username:
-    template = 'portfolio.html'
-  return render_template(template, user=user)  
+  try:
+    if username and username != current_user.username:
+       user = models.User.select().where(models.User.username**username).get()
+       this_route = url_for('.profile')
+       app.logger.info( current_user.username + " viewed " + username + "'s personal Profile page " + this_route)
+    else:
+       user=current_user
+       this_route = url_for('.profile')
+       app.logger.info( current_user.username  + " viewed his/her personal Profile page " + this_route)
+    if username:
+       template = 'portfolio.html'
+  except models.DoesNotExist:
+      abort(404)
+  else:    
+      return render_template(template, user=user)  
 
 
 @app.route("/about/<username>")
@@ -70,17 +74,21 @@ def profile(username=None):
 @login_required
 def about(username=None):
   template='about.html'
-  if username and username != current_user.username:
-     user = models.User.select().where(models.User.username**username).get()
-     this_route = url_for('.about')
-     app.logger.info( current_user.username + " viewed " + username + "'s personal About page " + this_route)
+  try:
+     if username and username != current_user.username:
+       user = models.User.select().where(models.User.username**username).get()
+       this_route = url_for('.about')
+       app.logger.info( current_user.username + " viewed " + username + "'s personal About page " + this_route)
+     else:
+       user=current_user
+       this_route = url_for('.about')
+       app.logger.info( current_user.username  + " viewed his/her personal About Me page " + this_route)
+     if username:
+       template = 'about.html'
+  except models.DoesNotExist:
+      abort(404)
   else:
-    user=current_user
-    this_route = url_for('.about')
-    app.logger.info( current_user.username  + " viewed his/her personal About Me page " + this_route)
-  if username:
-    template = 'about.html'
-  return render_template(template, user=user)  
+      return render_template(template, user=user)  
 
 
 @app.route("/new_post", methods=('GET','POST'))
@@ -102,11 +110,15 @@ def post(username=None):
 
 
 @app.route("/")
-def root():
+def root(username=None):
+  if username and username != current_user.username:
+    user = models.User.select().where(models.User.username**username).get()
+  else:
+    user = current_user
   this_route = url_for('.root')
   app.logger.info("Someone visited the root page" + this_route)
   stream = models.Post.select().limit(100)
-  return render_template('stream.html', stream=stream)
+  return render_template('stream.html',user=user, stream=stream)
 
 
 @app.route('/stream')
@@ -130,6 +142,8 @@ def stream(username=None):
 @app.route('/post/<int:post_id>')
 def view_post(post_id):
   posts = models.Post.select().where(models.Post.id == post_id)
+  if posts.count() == 0:
+    abort(404)
   return render_template('stream.html', stream=posts)
 
 
@@ -219,8 +233,8 @@ def not_found(error):
 def follow(username):
   try:
       to_user = models.User.get(models.User.username**username)
-  except:
-      pass
+  except models.DoesNotExist:
+      abort(404)
   else:
        try:
            models.Relationship.create(
@@ -238,8 +252,8 @@ def follow(username):
 def unfollow(username):
   try:
       to_user = models.User.get(models.User.username**username)
-  except:
-      pass
+  except models.DoesNotExist:
+      abort(404)
   else:
        try:
            models.Relationship.get(
