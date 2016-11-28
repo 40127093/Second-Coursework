@@ -1190,3 +1190,20 @@ INFO | 2016-11-28 12:50:11,529 | index | register | Someone visited the Register
 INFO | 2016-11-28 12:50:16,605 | index | login | Someone visited the Login page /login
 INFO | 2016-11-28 12:50:24,605 | index | login | Someone visited the Login page /login
 INFO | 2016-11-28 12:50:26,925 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 12:57:33,467 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 12:57:45,839 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 12:57:46,053 | index | profile | phoebetyner viewed poisonphoebe's personal Profile page /myprofile
+INFO | 2016-11-28 12:57:46,426 | index | profile | phoebetyner viewed poisonphoebe's personal Profile page /myprofile
+INFO | 2016-11-28 12:59:26,761 | index | profile | phoebetyner viewed poisonphoebe's personal Profile page /myprofile
+INFO | 2016-11-28 13:03:17,871 | index | login | Someone visited the Login page /login
+INFO | 2016-11-28 13:03:22,237 | index | login | Someone visited the Login page /login
+INFO | 2016-11-28 13:03:28,990 | index | login | Someone visited the Login page /login
+INFO | 2016-11-28 13:04:27,129 | index | login | Someone visited the Login page /login
+INFO | 2016-11-28 13:04:30,577 | index | login | Someone visited the Login page /login
+INFO | 2016-11-28 13:04:39,474 | index | login | Someone visited the Login page /login
+INFO | 2016-11-28 13:04:41,767 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 13:04:48,186 | index | about | phoebetyner viewed his/her personal About Me page /about
+INFO | 2016-11-28 13:04:54,129 | index | about | phoebetyner viewed his/her personal About Me page /about
+INFO | 2016-11-28 13:04:54,591 | index | about | phoebetyner viewed poisonphoebe's personal About page /about
+INFO | 2016-11-28 13:04:54,910 | index | about | phoebetyner viewed poisonphoebe's personal About page /about
+INFO | 2016-11-28 13:05:03,940 | index | about | phoebetyner viewed michaelroum's personal About page /about
