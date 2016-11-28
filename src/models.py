@@ -6,6 +6,12 @@ sys.dont_write_bytecode = True
 
 import datetime
 
+# to handle error:  'ImportError: Failed to import _strptime because the import lockis
+# held by another thread'
+
+throwaway = datetime.datetime.strptime('20110101','%Y%m%d')
+
+
 from flask.ext.bcrypt import generate_password_hash
 from flask.ext.login import UserMixin
 from peewee import *

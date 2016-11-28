@@ -48,6 +48,17 @@
         <!-- Top content -->
         <div class="top-content">
         	
+      {% with messages = get_flashed_messages() %}
+          {% if messages %}
+          <div class=flashes style="background:#18BC9C; color:black;">
+             {% for message in messages %}
+                <p>{{ message }}</p>
+             {% endfor %}
+          </div>
+          {% endif %}
+      {% endwith %}
+
+
             <div class="inner-bg">
                 <div class="container">
                     <div class="row">
@@ -61,14 +72,7 @@
                                  connections with people from around the
                                  globe... </p>
                             </div>
-                  {% with messages = get_flashed_messages(with_categories=True) %}
-                    {% if messages %}
-                      {% for category, message in messages %}
-                        <div class="notification {{ category }}">
-                      {% endfor %}
-                    {% endif %}
-                  {% endwith%}  
-
+                  
                         </div>
                     </div>
                 <!-- <div class="row">
@@ -89,7 +93,8 @@
 		                    </div>
                         </div> 
                     </div>  -->
-                    {% block content %}  {% endblock %}
+                    
+                         {% block content %}  {% endblock %}
                    <!-- <div class="row">
                         <div class="col-sm-6 col-sm-offset-3 social-login">
                         	<h3>...or login with:</h3>

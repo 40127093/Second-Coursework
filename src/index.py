@@ -172,11 +172,62 @@ def stream(username=None):
 # routing to each individual post
 
 @app.route('/post/<int:post_id>')
-def view_post(post_id):
+def view_post(post_id, username=None):
+  if username and username != current_user.username:
+    user = models.User.select().where(models.User.username**username).get()
+  else:
+    user=current_user
   posts = models.Post.select().where(models.Post.id == post_id)
   if posts.count() == 0:
     abort(404)
-  return render_template('stream.html', stream=posts)
+  return render_template('stream.html', stream=posts, user=user)
+
+# function that adds one follower in the relationship table for the selected user
+
+@app.route('/follow/<username>')
+@login_required
+def follow(username):
+  try:
+      to_user = models.User.get(models.User.username**username)
+  except models.DoesNotExist:
+      abort(404)
+  else:
+       try:
+           models.Relationship.create(
+             from_user=g.user._get_current_object(),
+             to_user=to_user
+           )
+       except models.IntegrityError:
+           pass
+       else:
+           flash("You're now following {}!".format(to_user.username),"success")
+           app.logger.info(current_user.username + " is now following " + username)
+  return redirect(url_for('stream',username=to_user.username))    
+
+
+# function that deletes the follower instance from the relationship table for
+# the selected user
+
+@app.route('/unfollow/<username>')
+@login_required
+def unfollow(username):
+  try:
+      to_user = models.User.get(models.User.username**username)
+  except models.DoesNotExist:
+      abort(404)
+  else:
+       try:
+           models.Relationship.get(
+             from_user=g.user._get_current_object(),
+             to_user=to_user
+           ).delete_instance()
+       except models.IntegrityError:
+           pass
+       else:
+           flash("You've unfollowed {}!".format(to_user.username),"success")
+           app.logger.info(current_user.username + " is now unfollowing " +
+           username)
+  return redirect(url_for('stream',username=to_user.username))    
 
 # routing to the register page
 @app.route('/register', methods=('GET','POST'))
@@ -185,7 +236,7 @@ def register():
   app.logger.info("Someone visited the Register page " + this_route)
   form = forms.RegisterForm()
   if form.validate_on_submit():
-    flash("Yay, you registered!", "success")
+    flash("Congratulations, you have successfully registered!", "success")
     models.User.create_user(
       username=form.username.data,
       email=form.email.data,
@@ -210,7 +261,7 @@ def login():
     else:
       if check_password_hash(user.password, form.password.data):
         login_user(user)
-        flash("You've been loggen in!", "success")
+        flash("You've been logged in!", "success")
         return redirect(url_for('profile'))
       else:
         flash("Your email or password doesn't match!", "error")
@@ -218,6 +269,7 @@ def login():
 
 
 # routing to the logout page which redirects the user to the login page
+
 @app.route('/logout')
 @login_required
 def logout():
@@ -268,54 +320,6 @@ def logs(app):
 @app.errorhandler(404)
 def not_found(error):
   return render_template('404.html'), 404
-
-
-# function that adds one follower in the relationship table for the selected user
-
-@app.route('/follow/<username>')
-@login_required
-def follow(username):
-  try:
-      to_user = models.User.get(models.User.username**username)
-  except models.DoesNotExist:
-      abort(404)
-  else:
-       try:
-           models.Relationship.create(
-             from_user=g.user._get_current_object(),
-             to_user=to_user
-           )
-       except models.IntegrityError:
-           pass
-       else:
-           flash("You're now following {}!".format(to_user.username),"success")
-           app.logger.info(current_user.username + " is now following " + username)
-  return redirect(url_for('stream',username=to_user.username))    
-
-
-# function that deletes the follower instance from the relationship table for
-# the selected user
-
-@app.route('/unfollow/<username>')
-@login_required
-def unfollow(username):
-  try:
-      to_user = models.User.get(models.User.username**username)
-  except models.DoesNotExist:
-      abort(404)
-  else:
-       try:
-           models.Relationship.get(
-             from_user=g.user._get_current_object(),
-             to_user=to_user
-           ).delete_instance()
-       except models.IntegrityError:
-           pass
-       else:
-           flash("You've unfollowed {}!".format(to_user.username),"success")
-           app.logger.info(current_user.username + " is now unfollowing " +
-           username)
-  return redirect(url_for('stream',username=to_user.username))    
 
 
 # initialisation function
