@@ -1659,3 +1659,79 @@ INFO | 2016-11-28 21:29:23,332 | index | profile | poisonphoebe viewed phoebetyn
 INFO | 2016-11-28 21:29:47,751 | index | about | poisonphoebe viewed phoebetyner's personal About page /about
 INFO | 2016-11-28 21:29:52,908 | index | stream | poisonphoebe viewed phoebetyner's Stream section  /stream
 INFO | 2016-11-28 21:29:58,862 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:31:41,329 | index | stream | poisonphoebe viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:31:43,574 | index | logout | poisonphoebe requested to logout /logout
+INFO | 2016-11-28 21:31:43,852 | index | login | Someone visited the Login page /login
+INFO | 2016-11-28 21:31:48,310 | index | register | Someone visited the Register page /register
+INFO | 2016-11-28 21:32:17,646 | index | register | Someone visited the Register page /register
+INFO | 2016-11-28 21:32:20,119 | index | login | Someone visited the Login page /login
+INFO | 2016-11-28 21:32:30,666 | index | login | Someone visited the Login page /login
+INFO | 2016-11-28 21:32:32,945 | index | profile | anothertest viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:32:50,080 | index | about | anothertest viewed his/her personal About Me page /about
+INFO | 2016-11-28 21:32:53,359 | index | stream | anothertest viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:32:57,770 | index | post | anothertest created a new post on his/her post feed section /new_post
+INFO | 2016-11-28 21:33:04,385 | index | post | anothertest created a new post on his/her post feed section /new_post
+INFO | 2016-11-28 21:33:04,561 | index | root | anothertest was redirected to the root page  /
+INFO | 2016-11-28 21:33:12,605 | index | stream | anothertest viewed phoebetyner's Stream section  /stream
+INFO | 2016-11-28 21:33:18,642 | index | stream | anothertest viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:33:22,016 | index | stream | anothertest viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:33:30,645 | index | stream | anothertest viewed poisonphoebe's Stream section  /stream
+INFO | 2016-11-28 21:33:31,132 | index | stream | anothertest viewed poisonphoebe's Stream section  /stream
+INFO | 2016-11-28 21:33:36,972 | index | follow | anothertest is now following poisonphoebe
+INFO | 2016-11-28 21:33:37,078 | index | stream | anothertest viewed poisonphoebe's Stream section  /stream
+INFO | 2016-11-28 21:33:40,124 | index | stream | anothertest viewed his/her Stream section  /stream
+INFO | 2016-11-28 21:34:25,529 | index | about | anothertest viewed his/her personal About Me page /about
+INFO | 2016-11-28 21:34:28,561 | index | profile | anothertest viewed his/her personal Profile page /myprofile
+INFO | 2016-11-28 21:34:36,296 | index | profile | anothertest viewed phoebetyner's personal Profile page /myprofile
+INFO | 2016-11-28 21:34:36,994 | index | profile | anothertest viewed phoebetyner's personal Profile page /myprofile
+INFO | 2016-11-28 21:34:44,522 | index | about | anothertest viewed phoebetyner's personal About page /about
+INFO | 2016-11-28 21:34:48,124 | index | stream | anothertest viewed phoebetyner's Stream section  /stream
+INFO | 2016-11-29 20:35:41,731 | index | root | anothertest was redirected to the root page  /
+INFO | 2016-11-29 20:35:47,911 | index | logout | anothertest requested to logout /logout
+INFO | 2016-11-29 20:35:48,248 | index | login | Someone visited the Login page /login
+INFO | 2016-11-29 20:35:51,423 | index | login | Someone visited the Login page /login
+INFO | 2016-11-29 20:38:00,297 | index | register | Someone visited the Register page /register
+INFO | 2016-11-29 20:38:46,751 | index | register | Someone visited the Register page /register
+INFO | 2016-11-29 20:38:49,105 | index | login | Someone visited the Login page /login
+INFO | 2016-11-29 20:39:07,653 | index | login | Someone visited the Login page /login
+INFO | 2016-11-29 20:39:10,095 | index | profile | toto viewed his/her personal Profile page /myprofile
+INFO | 2016-11-29 20:40:05,620 | index | profile | toto viewed phoebetyner's personal Profile page /myprofile
+INFO | 2016-11-29 20:40:06,248 | index | profile | toto viewed phoebetyner's personal Profile page /myprofile
+INFO | 2016-11-29 20:40:31,166 | index | about | toto viewed his/her personal About Me page /about
+INFO | 2016-11-29 20:40:45,529 | index | profile | toto viewed his/her personal Profile page /myprofile
+INFO | 2016-11-29 20:41:00,006 | index | profile | toto viewed his/her personal Profile page /myprofile
+INFO | 2016-11-29 20:41:01,047 | index | profile | toto viewed his/her personal Profile page /myprofile
+INFO | 2016-11-29 20:41:01,311 | index | profile | toto viewed his/her personal Profile page /myprofile
+INFO | 2016-11-29 20:41:03,618 | index | profile | toto viewed phoebetyner's personal Profile page /myprofile
+INFO | 2016-11-29 20:41:04,592 | index | profile | toto viewed phoebetyner's personal Profile page /myprofile
+INFO | 2016-11-29 20:41:36,095 | index | about | toto viewed phoebetyner's personal About page /about
+INFO | 2016-11-29 20:41:43,905 | index | about | toto viewed his/her personal About Me page /about
+INFO | 2016-11-29 20:42:35,928 | index | logout | toto requested to logout /logout
+INFO | 2016-11-29 20:42:36,001 | index | login | Someone visited the Login page /login
+INFO | 2016-11-29 20:42:51,440 | index | login | Someone visited the Login page /login
+INFO | 2016-11-29 20:42:53,677 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-29 20:42:58,842 | index | stream | phoebetyner viewed his/her Stream section  /stream
+INFO | 2016-11-29 20:43:14,263 | index | stream | phoebetyner viewed his/her Stream section  /stream
+INFO | 2016-11-29 20:43:17,607 | index | stream | phoebetyner viewed his/her Stream section  /stream
+INFO | 2016-11-29 20:43:30,823 | index | stream | phoebetyner viewed his/her Stream section  /stream
+INFO | 2016-11-29 20:43:33,241 | index | stream | phoebetyner viewed his/her Stream section  /stream
+INFO | 2016-11-29 20:43:39,669 | index | post | phoebetyner created a new post on his/her post feed section /new_post
+INFO | 2016-11-29 20:43:50,875 | index | post | phoebetyner created a new post on his/her post feed section /new_post
+INFO | 2016-11-29 20:43:51,091 | index | root | phoebetyner was redirected to the root page  /
+INFO | 2016-11-29 20:43:59,793 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-29 20:44:17,237 | index | stream | phoebetyner viewed his/her Stream section  /stream
+INFO | 2016-11-29 20:44:23,734 | index | stream | phoebetyner viewed his/her Stream section  /stream
+INFO | 2016-11-29 20:44:29,990 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-29 20:44:32,659 | index | unfollow | phoebetyner is now unfollowing michaelroum
+INFO | 2016-11-29 20:44:32,808 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-29 20:44:38,202 | index | stream | phoebetyner viewed his/her Stream section  /stream
+INFO | 2016-11-29 20:45:00,674 | index | stream | phoebetyner viewed poisonphoebe's Stream section  /stream
+INFO | 2016-11-29 20:45:09,900 | index | stream | phoebetyner viewed poisonphoebe's Stream section  /stream
+INFO | 2016-11-29 20:45:12,262 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-29 20:45:13,163 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-29 20:45:18,261 | index | follow | phoebetyner is now following michaelroum
+INFO | 2016-11-29 20:45:18,359 | index | stream | phoebetyner viewed michaelroum's Stream section  /stream
+INFO | 2016-11-29 20:46:41,070 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-30 19:09:00,278 | index | root | phoebetyner was redirected to the root page  /
+INFO | 2016-11-30 19:09:05,241 | index | logout | phoebetyner requested to logout /logout
+INFO | 2016-11-30 19:09:05,460 | index | login | Someone visited the Login page /login
