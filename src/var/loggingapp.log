@@ -1735,3 +1735,19 @@ INFO | 2016-11-29 20:46:41,070 | index | profile | phoebetyner viewed his/her pe
 INFO | 2016-11-30 19:09:00,278 | index | root | phoebetyner was redirected to the root page  /
 INFO | 2016-11-30 19:09:05,241 | index | logout | phoebetyner requested to logout /logout
 INFO | 2016-11-30 19:09:05,460 | index | login | Someone visited the Login page /login
+INFO | 2016-11-30 19:53:57,901 | index | login | Someone visited the Login page /login
+INFO | 2016-11-30 19:53:58,657 | index | login | Someone visited the Login page /login
+INFO | 2016-11-30 19:54:21,236 | index | login | Someone visited the Login page /login
+INFO | 2016-11-30 19:54:21,360 | index | login | Someone visited the Login page /login
+INFO | 2016-11-30 19:54:29,815 | index | login | Someone visited the Login page /login
+INFO | 2016-11-30 19:54:32,229 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-30 19:54:35,395 | index | logout | phoebetyner requested to logout /logout
+INFO | 2016-11-30 19:54:35,471 | index | login | Someone visited the Login page /login
+INFO | 2016-11-30 19:54:55,652 | index | register | Someone visited the Register page /register
+INFO | 2016-11-30 19:54:56,595 | index | register | Someone visited the Register page /register
+INFO | 2016-11-30 19:57:56,905 | index | login | Someone visited the Login page /login
+INFO | 2016-11-30 19:58:08,698 | index | login | Someone visited the Login page /login
+INFO | 2016-11-30 19:58:10,960 | index | profile | phoebetyner viewed his/her personal Profile page /myprofile
+INFO | 2016-11-30 19:58:21,892 | index | stream | phoebetyner viewed his/her Stream section  /stream
+INFO | 2016-11-30 19:58:25,763 | index | stream | phoebetyner viewed his/her Stream section  /stream
+INFO | 2016-11-30 19:58:28,863 | index | stream | phoebetyner viewed poisonphoebe's Stream section  /stream
